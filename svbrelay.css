@@ -6,11 +6,11 @@
 */
 
 @font-face {
-	font-family: 'minecrap';
+	font-family: 'minecraptwo';
     font-smooth: never;
     -webkit-font-smoothing : none;
     -moz-osx-font-smoothing: grayscale;
-	src: url("https://raw.githubusercontent.com/AndrewIdot/chhcss/refs/heads/main/fnt/minecrap.ttf") format('truetype');
+	src: url("https://raw.githubusercontent.com/AndrewIdot/chhcss/refs/heads/main/fnt/minecraptwo.ttf") format('truetype');
 }
 
 li[data-author-id="1277313985967820840"] .c19a557985eb7793-messageContent {
