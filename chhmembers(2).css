@@ -1,0 +1,301 @@
+/**
+ * @name ChhMembers
+ * @author The CHH guys
+ * @description all of us
+ * @version 1.2.1
+*/
+
+
+
+
+/* VEA_REBIRTH */
+
+li[data-author-id="1334564142891143259"] {
+    background-image: linear-gradient(to right, white 4px,black 4px, black 7px, white 7px, white 10px, black 10px);
+}
+li[data-author-id="1334564142891143259"] .c19a557985eb7793-messageContent {
+    color: hwb(0 100% 0%);
+    font-family: "Lucida Console";
+    font-size: 14px;
+
+    & strong {
+        color: black;
+        -webkit-text-stroke-width: 0.6px;
+        -webkit-text-stroke-color: red;
+    }
+}
+
+/*li[data-author-id="1334564142891143259"] .c19a557985eb7793-username {
+    font-size: 0;
+} 
+
+li[data-author-id="1334564142891143259"] .c19a557985eb7793-username::after {
+    content: "Vea Ortis";
+    -webkit-text-fill-color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    display: inline;
+}*/
+
+li[data-author-id="1334564142891143259"] .c19a557985eb7793-username {
+    -webkit-text-fill-color: white;
+} 
+
+li[data-author-id="1334564142891143259"] .c19a557985eb7793-clanTagChiplet, .ee71ee16cc02184d-clickable {
+    display: none;
+}
+
+[data-author-id="1334564142891143259"] .c19a557985eb7793-messageContent::before {
+    display: inline-block;
+    font-family: "MS Gothic";
+    font-size: 0.80em;
+    content: "⬣ ";
+    color: #FFF;
+}
+
+/* ICE */
+
+@font-face {
+  font-family: 'adler';
+  src: url("https://file.garden/ZHZbTOH23R-SBpdY/adler.ttf");
+}
+
+[data-author-id="467270876673605642"] ._5126c0cd07f243a0-message {
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "adler";
+    background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('https://file.garden/ZHZbTOH23R-SBpdY/paper.jpg') !important;
+    background-size: 40% !important;
+    background-color: #000;
+    border: dashed black 1px;
+}
+
+li[data-author-id="467270876673605642"] .c19a557985eb7793-avatar {
+    display: none;
+}
+
+li[data-author-id="467270876673605642"] ._23977d5b7cef7361-reactions {
+    display: none;
+}
+
+li[data-author-id="467270876673605642"] .c19a557985eb7793-timestampVisibleOnHover {
+    display: none;
+}
+
+li[data-author-id="467270876673605642"] .c19a557985eb7793-repliedMessageClickableSpine {
+    display: none;
+}
+
+
+[data-author-id="467270876673605642"] .c19a557985eb7793-messageContent::before {
+    display: inline-block;
+    font-size: 1.20em;
+    content: "= ";
+}
+
+li[data-author-id="467270876673605642"] ._752971923a1e6683-markup {
+    left: -50px;
+}
+
+/* ANGELA */
+
+@font-face {
+    font-family: 'ihatecomicsans';
+    src: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/ihatecomicsans.ttf") format('truetype');
+}
+
+li[data-author-id="636050805103001650"] ._5126c0cd07f243a0-message {
+    background-color: #C2AEEF; //#451f68;
+    background-image: url(https://file.garden/ZHZbTOH23R-SBpdY/angelapolka.png) !important;
+    background-size: 40% !important;
+    border: 4px solid #DACCFF;
+    border-radius: 15px;
+}
+
+li[data-author-id="636050805103001650"] {
+	cursor: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/cur-dreweehand.png"), auto;
+}
+
+li[data-author-id="636050805103001650"]:active {
+    cursor: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/cur-dreweehandclosed.png"), auto !important;
+}
+
+li[data-author-id="636050805103001650"] ._752971923a1e6683-markup .edefb8e22d63c542-anchor:hover, 
+li[data-author-id="636050805103001650"] ._6c706db0523bd9a7-downloadHoverButtonIcon, 
+li[data-author-id="636050805103001650"] ._0ccaee68b77c7469-fileNameLink, 
+li[data-author-id="636050805103001650"] .c19a557985eb7793-username:hover,
+li[data-author-id="636050805103001650"] .c19a557985eb7793-clickable:hover, 
+li[data-author-id="636050805103001650"] ._10651c5cfe637db6-clickable,
+li[data-author-id="636050805103001650"] .af017ab847f75d02-clickable:hover,
+li[data-author-id="636050805103001650"] .af017ab847f75d02-originalLink:hover {
+    cursor: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/cur-dreweehandpoint.png"), auto;
+}
+
+li[data-author-id="636050805103001650"] .c19a557985eb7793-messageContent {
+    color: black;
+    font-family: 'ihatecomicsans', Arial, sans-serif !important;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    & strong {
+        // color: #5E43D3;
+        font-size: 20px;
+    }
+
+    & em, & i {
+        // color: red;
+    }
+}
+
+li[data-author-id="636050805103001650"] ._752971923a1e6683-markup h1 {
+    color: black;
+    font-family: 'ihatecomicsans', Arial, sans-serif !important;
+    font-weight: bold;
+}
+
+li[data-author-id="636050805103001650"] ._752971923a1e6683-markup h2 {
+    color: black;
+    font-family: 'ihatecomicsans', Arial, sans-serif !important;
+    font-weight: bold;
+}
+
+li[data-author-id="636050805103001650"] ._752971923a1e6683-markup h3 {
+    color: black;
+    font-family: 'ihatecomicsans', Arial, sans-serif !important;
+    font-weight: bold;
+}
+
+li[data-author-id="636050805103001650"] ._752971923a1e6683-markup small span {
+    color: black;
+    font-family: 'ihatecomicsans', Arial, sans-serif !important;
+    font-weight: normal;
+    font-style: italic;
+}
+
+li[data-author-id="636050805103001650"] ._752971923a1e6683-markup small span strong span {
+    color: black;
+    font-family: 'ihatecomicsans', Arial, sans-serif !important;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+li[data-author-id="636050805103001650"] ._10651c5cfe637db6-tagText, 
+li[data-author-id="636050805103001650"] .c19a557985eb7793-username, 
+li[data-author-id="636050805103001650"] .c19a557985eb7793-timestamp, 
+li[data-author-id="636050805103001650"] .c19a557985eb7793-timestampInline,
+li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedTextPreview
+{
+    color: black !important;
+    font-family: 'ihatecomicsans', Arial, sans-serif !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+li[data-author-id="636050805103001650"] ._752971923a1e6683-codeActions {
+    color: white !important;
+}
+
+li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedMessage,
+li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedTextContentTrailingIcon,
+li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedMessageContentHovered,
+li[data-author-id="636050805103001650"] .channelMention,
+li[data-author-id="636050805103001650"] .f61d60ed65f9a128-wrapper {
+    color: black !important;
+}
+
+li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedMessageClickableSpine
+{
+    background-color: black !important;
+    border-radius: 10px;
+    height: 20%;
+}
+
+li[data-author-id="636050805103001650"] .emoji {
+    background-color: #353748;
+    border-radius: 4px;
+}
+
+li[data-author-id="636050805103001650"] code {
+    background-color: #353748 !important;
+    color:white !important;
+    font-weight: normal;
+    letter-spacing: 0px;
+}
+
+li[data-author-id="636050805103001650"] ._506b39a96c2f8884-scrollbarGhostHairline {
+    background-color: #353748 !important;
+    color:white !important;
+    font-weight: normal;
+}
+
+li[data-author-id="636050805103001650"] attachmentLink {
+    background-color: #8A47FF !important;
+}
+
+li[data-author-id="636050805103001650"] .c19a557985eb7793-messageContent .edefb8e22d63c542-anchor,
+li[data-author-id="636050805103001650"] .c19a557985eb7793-messageContent .edefb8e22d63c542-anchorUnderlineOnHover {
+    color: #8C49FF !important;
+}
+
+li[data-author-id="636050805103001650"] ._10651c5cfe637db6-badge {
+    content: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/favicon.png")
+}
+
+li[data-author-id="636050805103001650"] ._10651c5cfe637db6-tagText {
+    font-size: 0;
+}
+
+li[data-author-id="636050805103001650"] ._10651c5cfe637db6-tagText::after {
+    content: "gay";
+    font-size: 12px;
+}
+
+/* DERZOX */
+
+@font-face {
+    font-family: 'derzoxrain';
+    src: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/rainw.ttf") format('truetype');
+}
+
+li[data-author-id="714529404432154734"] ._5126c0cd07f243a0-message {
+    border-radius: 10px;
+    background-color: black !important;
+    border: 2px solid white;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    font-family: "derzoxrain";
+}
+li[data-author-id="714529404432154734"] ._752971923a1e6683-markup h1,
+li[data-author-id="714529404432154734"] ._752971923a1e6683-markup h2,
+li[data-author-id="714529404432154734"] ._752971923a1e6683-markup h3
+{
+    font-family: "derzoxrain";
+}
+
+li[data-author-id="714529404432154734"] .c19a557985eb7793-messageContent,
+li[data-author-id="714529404432154734"] .c19a557985eb7793-header,
+li[data-author-id="714529404432154734"] .f4758a8d6346d18b-visualMediaItemContainer,
+li[data-author-id="714529404432154734"] ._752971923a1e6683-markup,
+li[data-author-id="714529404432154734"] ._623de82e76ad7f82-inlineMediaEmbed,
+li[data-author-id="714529404432154734"] .f4758a8d6346d18b-nonVisualMediaItemContainer,
+li[data-author-id="714529404432154734"] ._083ae98ea5145b08-guildInviteContainer {
+    position: relative;
+    left: -60px;
+}
+
+li[data-author-id="714529404432154734"] .c19a557985eb7793-repliedMessage {
+    position: relative;
+    left: -50px;
+}
+
+li[data-author-id="714529404432154734"] .c19a557985eb7793-repliedMessageClickableSpine {
+    width: 1%;
+    left: -8px;
+}
+
+li[data-author-id="714529404432154734"] .c19a557985eb7793-avatar,
+li[data-author-id="714529404432154734"] .c19a557985eb7793-avatarDecoration {
+    visibility: hidden;
+}
