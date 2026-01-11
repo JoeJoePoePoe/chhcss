@@ -2,17 +2,40 @@
  * @name ChhMembers
  * @author The CHH guys
  * @description all of us
- * @version 1.2.1
+ * @version 1.2.2
 */
+
+/* //// fonts //// */
+
+@font-face {
+    font-family: 'ihatecomicsans';
+    src: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/ihatecomicsans.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'adler';
+  src: url("https://file.garden/ZHZbTOH23R-SBpdY/adler.ttf");
+}
+
+@font-face {
+    font-family: 'derzoxrain';
+    src: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/rainw.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'lucidaconsolebu';
+    src: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/rainw.ttf") format('truetype');
+}
 
 /* VEA_REBIRTH */
 
 li[data-author-id="1334564142891143259"] {
     background-image: linear-gradient(to right, white 4px,black 4px, black 7px, white 7px, white 10px, black 10px);
 }
+
 li[data-author-id="1334564142891143259"] .c19a557985eb7793-messageContent {
     color: hwb(0 100% 0%);
-    font-family: "Lucida Console";
+    font-family: "Lucida Console", "lucidaconsolebu" !important;
     font-size: 14px;
 
     & strong {
@@ -51,11 +74,6 @@ li[data-author-id="1334564142891143259"] .c19a557985eb7793-clanTagChiplet, .ee71
 }
 
 /* ICE */
-
-@font-face {
-  font-family: 'adler';
-  src: url("https://file.garden/ZHZbTOH23R-SBpdY/adler.ttf");
-}
 
 [data-author-id="467270876673605642"] ._5126c0cd07f243a0-message {
     -webkit-text-fill-color: black;
@@ -96,11 +114,6 @@ li[data-author-id="467270876673605642"] ._752971923a1e6683-markup {
 }
 
 /* ANGELA */
-
-@font-face {
-    font-family: 'ihatecomicsans';
-    src: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/ihatecomicsans.ttf") format('truetype');
-}
 
 li[data-author-id="636050805103001650"] ._5126c0cd07f243a0-message {
     background-color: #C2AEEF; //#451f68;
@@ -250,11 +263,6 @@ li[data-author-id="636050805103001650"] ._10651c5cfe637db6-tagText::after {
 }
 
 /* DERZOX */
-
-@font-face {
-    font-family: 'derzoxrain';
-    src: url("https://raw.githubusercontent.com/AndrewIdot/FileDump/refs/heads/main/rainw.ttf") format('truetype');
-}
 
 li[data-author-id="714529404432154734"] ._5126c0cd07f243a0-message {
     border-radius: 10px;
