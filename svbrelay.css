@@ -1,0 +1,51 @@
+/**
+ * @name Serverboss Fancy Relay
+ * @author AngelaIdot
+ * @description /ex give
+ * @version 1.16.5 (1.0.0)
+*/
+
+@font-face {
+	font-family: 'minecrap2';
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+    -moz-osx-font-smoothing: grayscale;
+	src: url("https://raw.githubusercontent.com/AndrewIdot/chhcss/refs/heads/main/fnt/minecrap2.ttf") format('truetype');
+}
+
+li[data-author-id="1277313985967820840"] .c19a557985eb7793-messageContent {
+    color: white;
+    font-family: 'minecrap2';
+    font-size: 16px;
+    text-shadow: 1px 1px 2px #7F7F7F;
+    & strong {
+        color: yellow;
+        text-shadow: 1px 1px 2px #7F7F00;
+    }
+}
+
+li[data-author-id="1277313985967820840"] .c19a557985eb7793-header,
+li[data-author-id="1277313985967820840"] .c19a557985eb7793-avatar {
+    display: none;
+}
+
+li[data-author-id="1277313985967820840"] .c19a557985eb7793-timestampVisibleOnHover span {
+    color:white;
+    position: relative;
+    left: -22px;
+}
+
+li[data-author-id="1277313985967820840"] .c19a557985eb7793-timestampVisibleOnHover {
+    opacity: 1;
+}
+
+li[data-author-id="1277313985967820840"] .c19a557985eb7793-messageContent,
+li[data-author-id="1277313985967820840"] .c19a557985eb7793-header,
+li[data-author-id="1277313985967820840"] .f4758a8d6346d18b-visualMediaItemContainer,
+li[data-author-id="1277313985967820840"] ._752971923a1e6683-markup,
+li[data-author-id="1277313985967820840"] ._623de82e76ad7f82-inlineMediaEmbed,
+li[data-author-id="1277313985967820840"] .f4758a8d6346d18b-nonVisualMediaItemContainer,
+li[data-author-id="1277313985967820840"] ._083ae98ea5145b08-guildInviteContainer {
+    position: relative;
+    left: -30px;
+}
