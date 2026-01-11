@@ -32,6 +32,11 @@
 	src: url("https://raw.githubusercontent.com/AndrewIdot/chhcss/refs/heads/main/fnt/Comic%20Sans%20MS.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: "hitmarker";
+    src: url("https://raw.githubusercontent.com/AndrewIdot/chhcss/refs/heads/main/fnt/HitmarkerText-Regular.ttf")  format('truetype');
+}
+
 /* //// font end //// */
 
 /* VEA_REBIRTH */
@@ -306,4 +311,36 @@ li[data-author-id="714529404432154734"] .c19a557985eb7793-avatarDecoration {
 
 li[data-author-id="328514436245618699"] .c19a557985eb7793-messageContent {
     font-family: "Comic Sans MS", 'comicsanslol', Arial, sans-serif !important;
+	
+/*
+░░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄░░░░░░░
+░░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄░░░░
+░░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█░░░
+░░░█░░░░░░▄██▀▄▄░░░░░▄▄▄░░░░█░░
+░▄▀▒▄▄▄▒░█▀▀▀▀▄▄█░░░██▄▄█░░░░█░
+█░▒█▒▄░▀▄▄▄▀░░░░░░░░█░░░▒▒▒▒▒░█
+█░▒█░█▀▄▄░░░░░█▀░░░░▀▄░░▄▀▀▀▄▒█
+░█░▀▄░█▄░█▀▄▄░▀░▀▀░▄▄▀░░░░█░░█░
+░░█░░░▀▄▀█▄▄░█▀▀▀▄▄▄▄▀▀█▀██░█░░
+░░░█░░░░██░░▀█▄▄▄█▄▄█▄████░█░░░
+░░░░█░░░░▀▀▄░█░░░█░█▀██████░█░░
+░░░░░▀▄░░░░░▀▀▄▄▄█▄█▄█▄█▄▀░░█░░
+░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░▒░░░█░
+░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░░░░█░
+░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░░░░█░░
+*/
+}
+
+/* CNTRPL */
+
+li[data-author-id="212160419769483265"] {
+    font-family: "hitmarker";
+    border-left: 1px solid #B5EDFF;
+    background: linear-gradient(to right, #B5EDFF60, #B5EDFF00);
+}
+
+li[data-author-id="212160419769483265"] code {
+    background-color: #353748 !important;
+    font-weight: normal;
+    letter-spacing: 0px;
 }
