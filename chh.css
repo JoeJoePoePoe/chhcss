@@ -1,8 +1,8 @@
 /**
  * @name ChhMembers
- * @author The CHH guys
+ * @author the chh guys
  * @description all of us
- * @version 1.2.2
+ * @version 1.2.4
 */
 
 /* //// fonts //// */
@@ -66,11 +66,18 @@ li[data-author-id="1334564142891143259"] .c19a557985eb7793-username::after {
     display: inline;
 }*/
 
+/*V-NOTE; The above was an attempt to make my username appear consistent accross everything
+despite my nickname, but the big issue is that in replies this will also replace the reply-ee's
+username as well, which looks really weird. unsure if there's a solution or if i'm just going to
+have to drop this idea, maybe i could do a custom server tag like angela? */
+
 li[data-author-id="1334564142891143259"] .c19a557985eb7793-username {
     -webkit-text-fill-color: white;
+    font-weight: bolder;
 } 
 
-li[data-author-id="1334564142891143259"] .c19a557985eb7793-clanTagChiplet, .ee71ee16cc02184d-clickable {
+li[data-author-id="1334564142891143259"] .c19a557985eb7793-clanTagChiplet,
+li[data-author-id="1334564142891143259"]  .ee71ee16cc02184d-clickable {
     display: none;
 }
 
@@ -95,18 +102,13 @@ li[data-author-id="1334564142891143259"] .c19a557985eb7793-clanTagChiplet, .ee71
     border: dashed black 1px;
 }
 
-li[data-author-id="467270876673605642"] .c19a557985eb7793-avatar {
-    display: none;
+li[data-author-id="467270876673605642"] .c19a557985eb7793-timestamp {
+    text-decoration: underline;
 }
 
-li[data-author-id="467270876673605642"] ._23977d5b7cef7361-reactions {
-    display: none;
-}
-
-li[data-author-id="467270876673605642"] .c19a557985eb7793-timestampVisibleOnHover {
-    display: none;
-}
-
+li[data-author-id="467270876673605642"] .c19a557985eb7793-avatar,
+li[data-author-id="467270876673605642"] ._23977d5b7cef7361-reactions,
+li[data-author-id="467270876673605642"] .c19a557985eb7793-timestampVisibleOnHover,
 li[data-author-id="467270876673605642"] .c19a557985eb7793-repliedMessageClickableSpine {
     display: none;
 }
@@ -114,18 +116,29 @@ li[data-author-id="467270876673605642"] .c19a557985eb7793-repliedMessageClickabl
 
 [data-author-id="467270876673605642"] .c19a557985eb7793-messageContent::before {
     display: inline-block;
-    font-size: 1.20em;
-    content: "= ";
+    font-size: 1em;
+    content: "- ";
+    transform: scale(1.4, 0.9);
 }
 
 li[data-author-id="467270876673605642"] ._752971923a1e6683-markup {
     left: -50px;
 }
 
+li[data-author-id="467270876673605642"] .c19a557985eb7793-edited {
+    font-size: 0px;
+}
+
+li[data-author-id="467270876673605642"] .c19a557985eb7793-edited::after {
+    content: "(REVISED)";
+	font-size: 10px;
+	text-decoration: underline;
+}
+
 /* ANGELA */
 
 li[data-author-id="636050805103001650"] ._5126c0cd07f243a0-message {
-    background-color: #C2AEEF; //#451f68;
+    background-color: #C2AEEF;
     background-image: url('https://raw.githubusercontent.com/AndrewIdot/chhcss/refs/heads/main/img/angelapolka.png') !important;
     background-size: 40% !important;
     border: 4px solid #DACCFF;
