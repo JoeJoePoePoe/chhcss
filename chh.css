@@ -228,6 +228,7 @@ li[data-author-id="636050805103001650"] .channelMention,
 li[data-author-id="636050805103001650"] .f61d60ed65f9a128-wrapper,
 li[data-author-id="636050805103001650"] ._122e465d2e663859-footerContainer,
 li[data-author-id="636050805103001650"] ._122e465d2e663859-headerText,
+li[data-author-id="636050805103001650"] ._23977d5b7cef7361-reactionCount,
 li[data-author-id="636050805103001650"] ._0f481cbbd7530492-altText {
     color: black !important;
 }
@@ -247,6 +248,7 @@ li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedMessage .c19a55
 
 /* svg elements */
 li[data-author-id="636050805103001650"] ._122e465d2e663859-headerIcon path,
+li[data-author-id="636050805103001650"] ._23977d5b7cef7361-reactionBtn ._23977d5b7cef7361-icon path,
 li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedTextContentLeadingIcon path {
 	fill: black !important;
 }
