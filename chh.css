@@ -487,7 +487,7 @@ here too if you wish
 /* NRN */
 
 li[data-author-id="1228671529881964636"] ._5126c0cd07f243a0-message {
-    background-image: linear-gradient(180deg, #ffffff 75%, #838383 100%) !important;
+    background-image: linear-gradient(180deg, #000000 50%, #00d500 100%) !important;
     border: 2px solid black;
     border-radius: 10px;
     padding-top: 10px;
@@ -495,7 +495,7 @@ li[data-author-id="1228671529881964636"] ._5126c0cd07f243a0-message {
 }
 
 li[data-author-id="1228671529881964636"] .c19a557985eb7793-messageContent {
-    color: black;
+    color: white;
     font-family: 'comicsanslol', Arial, sans-serif !important;
 }
 
@@ -504,7 +504,7 @@ li[data-author-id="1228671529881964636"] ._752971923a1e6683-markup h2,
 li[data-author-id="1228671529881964636"] ._752971923a1e6683-markup h3,
 li[data-author-id="1228671529881964636"] ._752971923a1e6683-markup small span,
 li[data-author-id="1228671529881964636"] ._752971923a1e6683-markup small span strong span {
-    color: black;
+    color: white;
     font-family: 'comicsanslol', Arial, sans-serif !important;
 }
 
@@ -514,55 +514,8 @@ li[data-author-id="1228671529881964636"] .c19a557985eb7793-timestamp,
 li[data-author-id="1228671529881964636"] .c19a557985eb7793-timestampInline,
 li[data-author-id="1228671529881964636"] .c19a557985eb7793-repliedTextPreview
 {
-    color: black !important;
+    color: white !important;
     font-family: 'comicsanslol', Arial, sans-serif !important;
     font-weight: bold;
     letter-spacing: 1px;
-}
-
-li[data-author-id="1228671529881964636"] ._752971923a1e6683-codeActions {
-    color: white !important;
-}
-
-li[data-author-id="1228671529881964636"] .c19a557985eb7793-repliedMessage,
-li[data-author-id="1228671529881964636"] .c19a557985eb7793-repliedTextContentTrailingIcon,
-li[data-author-id="1228671529881964636"] .c19a557985eb7793-repliedMessageContentHovered,
-li[data-author-id="1228671529881964636"] .channelMention,
-li[data-author-id="1228671529881964636"] .f61d60ed65f9a128-wrapper,
-li[data-author-id="1228671529881964636"] ._122e465d2e663859-footerContainer,
-li[data-author-id="1228671529881964636"] ._122e465d2e663859-headerText,
-li[data-author-id="1228671529881964636"] ._0f481cbbd7530492-altText {
-    color: black !important;
-}
-
-li[data-author-id="1228671529881964636"] ._122e465d2e663859-quote {
-	opacity: 1;
-	background-color: black !important;
-}
-
-li[data-author-id="1228671529881964636"] .c19a557985eb7793-repliedMessageClickableSpine{
-	border-color: black !important;
-}
-
-li[data-author-id="1228671529881964636"] .c19a557985eb7793-repliedMessage .c19a557985eb7793-username {
-	opacity: 1;
-}
-
-/* svg elements */
-li[data-author-id="1228671529881964636"] ._122e465d2e663859-headerIcon path,
-li[data-author-id="1228671529881964636"] .c19a557985eb7793-repliedTextContentLeadingIcon path {
-	fill: black !important;
-}
-li[data-author-id="1228671529881964636"] code,
-li[data-author-id="1228671529881964636"] ._506b39a96c2f8884-scrollbarGhostHairline {
-    background-color: #353748 !important;
-}
-
-li[data-author-id="1228671529881964636"] attachmentLink {
-    background-color: #01611e !important;
-}
-
-li[data-author-id="1228671529881964636"] .c19a557985eb7793-messageContent .edefb8e22d63c542-anchor,
-li[data-author-id="1228671529881964636"] .c19a557985eb7793-messageContent .edefb8e22d63c542-anchorUnderlineOnHover {
-    color: #01611e !important;
 }
