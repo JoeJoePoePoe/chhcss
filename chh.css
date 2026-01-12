@@ -196,7 +196,6 @@ li[data-author-id="636050805103001650"] ._752971923a1e6683-markup small span {
     color: black;
     font-family: 'ihatecomicsans', Arial, sans-serif !important;
     font-weight: normal;
-    font-style: italic;
 }
 
 li[data-author-id="636050805103001650"] ._752971923a1e6683-markup small span strong span {
@@ -226,15 +225,28 @@ li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedMessage,
 li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedTextContentTrailingIcon,
 li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedMessageContentHovered,
 li[data-author-id="636050805103001650"] .channelMention,
-li[data-author-id="636050805103001650"] .f61d60ed65f9a128-wrapper {
+li[data-author-id="636050805103001650"] .f61d60ed65f9a128-wrapper,
+li[data-author-id="636050805103001650"] ._122e465d2e663859-footerContainer,
+li[data-author-id="636050805103001650"] ._122e465d2e663859-headerText {
     color: black !important;
 }
 
-li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedMessageClickableSpine
-{
-    background-color: black !important;
-    border-radius: 10px;
-    height: 20%;
+li[data-author-id="636050805103001650"] ._122e465d2e663859-quote {
+	opacity: 1;
+	background-color: black !important;
+}
+
+li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedMessageClickableSpine{
+	border-color: black !important;
+}
+
+li[data-author-id="636050805103001650"] .c19a557985eb7793-repliedMessage .c19a557985eb7793-username {
+	opacity: 1;
+}
+
+/* svg elements */
+li[data-author-id="636050805103001650"] ._122e465d2e663859-headerIcon path {
+	fill: black !important;
 }
 
 li[data-author-id="636050805103001650"] .emoji {
