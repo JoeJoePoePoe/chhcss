@@ -99,7 +99,7 @@ li[data-author-id="1334564142891143259"]  .clickable_ee71ee {
 
 /* ICE */
 
-[data-author-id="467270876673605642"] ._5126c0cd07f243a0-message {
+[data-author-id="467270876673605642"] .message__5126c {
     -webkit-text-fill-color: black;
     font-weight: bold;
     text-transform: uppercase;
@@ -115,35 +115,37 @@ li[data-author-id="1334564142891143259"]  .clickable_ee71ee {
     }
 }
 
-li[data-author-id="467270876673605642"] .message-content-1460679529025507439 {
-    vertical-align: middle;
-}
-
-[data-author-id="467270876673605642"] * {
-    border-radius: 0px;
-}
-
-li[data-author-id="467270876673605642"] .c19a557985eb7793-timestamp {
+li[data-author-id="467270876673605642"] .timestamp_c19a55 {
     text-decoration: underline;
 }
 
-li[data-author-id="467270876673605642"] .c19a557985eb7793-avatar,
-li[data-author-id="467270876673605642"] ._23977d5b7cef7361-reactions,
-li[data-author-id="467270876673605642"] .c19a557985eb7793-timestampVisibleOnHover,
-li[data-author-id="467270876673605642"] .c19a557985eb7793-repliedMessageClickableSpine {
+li[data-author-id="467270876673605642"] .avatar_c19a55,
+li[data-author-id="467270876673605642"] .reactions__23977,
+li[data-author-id="467270876673605642"] .timestampVisibleOnHover_c19a55,
+li[data-author-id="467270876673605642"] .repliedMessageClickableSpine_c19a55 {
     display: none;
 }
 
 
-[data-author-id="467270876673605642"] .c19a557985eb7793-messageContent::before {
+[data-author-id="467270876673605642"] .messageContent_c19a55::before {
     display: inline-block;
     font-size: 1em;
     content: "- ";
     transform: scale(1.4, 0.9);
 }
 
-li[data-author-id="467270876673605642"] ._752971923a1e6683-markup {
+li[data-author-id="467270876673605642"] .markup__75297 {
     left: -50px;
+}
+
+li[data-author-id="467270876673605642"] .edited_c19a55{
+    font-size: 0px;
+}
+
+li[data-author-id="467270876673605642"] .edited_c19a55::after {
+    content: "(REVISED)";
+	font-size: 10px;
+	text-decoration: underline;
 }
 
 li[data-author-id="467270876673605642"] .c19a557985eb7793-edited {
@@ -246,11 +248,11 @@ li[data-author-id="636050805103001650"] .repliedTextPreview_c19a55
     letter-spacing: 1px;
 }
 
-li[data-author-id="636050805103001650"] .c19a557985eb7793-headerText .c19a557985eb7793-username {
+li[data-author-id="636050805103001650"] .headerText_c19a55 .username_c19a55 {
 	border-radius: 25px;
 	border: 4px solid #DACCFF;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	background-color: #ab98dc !important;
+	background-color: #C2AEEF !important;
 	padding-left: 5px;
 	padding-right: 5px;
     font-family: 'ihatecomicsans', Arial, sans-serif !important;

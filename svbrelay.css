@@ -2,7 +2,7 @@
  * @name Serverboss Fancy Relay
  * @author AngelaIdot
  * @description /ex give
- * @version 1.16.5 (1.0.1)
+ * @version 1.16.5 (1.0.2)
 */
 
 @font-face {
@@ -13,16 +13,16 @@
 	src: url("https://raw.githubusercontent.com/AndrewIdot/chhcss/refs/heads/main/fnt/minecraptwo.ttf") format('truetype');
 }
 
-li[data-author-id="1277313985967820840"] ._5126c0cd07f243a0-groupStart {
+li[data-author-id="1277313985967820840"] .groupStart__5126c {
 	all: revert;
 }
 
-li[data-author-id="1277313985967820840"] ._5126c0cd07f243a0-groupStart {
+li[data-author-id="1277313985967820840"] .groupStart__5126c {
 	position: relative;
     left: 72px;
 }
 
-li[data-author-id="1277313985967820840"] .c19a557985eb7793-messageContent {
+li[data-author-id="1277313985967820840"] .messageContent_c19a55 {
     color: white;
     font-family: "minecraptwo";
     font-size: 16px;
@@ -33,28 +33,28 @@ li[data-author-id="1277313985967820840"] .c19a557985eb7793-messageContent {
     }
 }
 
-li[data-author-id="1277313985967820840"] .c19a557985eb7793-header,
-li[data-author-id="1277313985967820840"] .c19a557985eb7793-avatar {
+li[data-author-id="1277313985967820840"] .header_c19a55,
+li[data-author-id="1277313985967820840"] .avatar_c19a55 {
     display: none;
 }
 
-li[data-author-id="1277313985967820840"] .c19a557985eb7793-timestampVisibleOnHover span {
+li[data-author-id="1277313985967820840"] .timestampVisibleOnHover_c19a55 span {
     color:white;
     position: relative;
     left: -22px;
 }
 
-li[data-author-id="1277313985967820840"] .c19a557985eb7793-timestampVisibleOnHover {
+li[data-author-id="1277313985967820840"] .timestampVisibleOnHover_c19a55 {
     opacity: 1;
 }
 
-li[data-author-id="1277313985967820840"] .c19a557985eb7793-messageContent,
-li[data-author-id="1277313985967820840"] .c19a557985eb7793-header,
-li[data-author-id="1277313985967820840"] .f4758a8d6346d18b-visualMediaItemContainer,
-li[data-author-id="1277313985967820840"] ._752971923a1e6683-markup,
-li[data-author-id="1277313985967820840"] ._623de82e76ad7f82-inlineMediaEmbed,
-li[data-author-id="1277313985967820840"] .f4758a8d6346d18b-nonVisualMediaItemContainer,
-li[data-author-id="1277313985967820840"] ._083ae98ea5145b08-guildInviteContainer {
+li[data-author-id="1277313985967820840"] .messageContent_c19a55,
+li[data-author-id="1277313985967820840"] .header_c19a55,
+li[data-author-id="1277313985967820840"] .visualMediaItemContainer_f4758a,
+li[data-author-id="1277313985967820840"] .markup__75297,
+li[data-author-id="1277313985967820840"] .inlineMediaEmbed__623d,
+li[data-author-id="1277313985967820840"] .nonVisualMediaItemContainer_f4758a,
+li[data-author-id="1277313985967820840"] .guildInviteContainer__083ae {
     position: relative;
     left: -30px;
 }
